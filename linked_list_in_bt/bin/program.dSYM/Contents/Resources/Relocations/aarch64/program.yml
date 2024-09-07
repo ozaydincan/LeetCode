@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/canozaydin/Projects/leetcode/linked_list_in_bt/bin/program'
+relocations:
+  - { offsetInCU: 0xDE, offset: 0xDE, size: 0x8, addend: 0x0, symName: _createListNode, symObjAddr: 0x0, symBinAddr: 0x1000038A8, symSize: 0x38 }
+  - { offsetInCU: 0xEF, offset: 0xEF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x438, symBinAddr: 0x100003CE0, symSize: 0xCC }
+  - { offsetInCU: 0x177, offset: 0x177, size: 0x8, addend: 0x0, symName: _isSubPath, symObjAddr: 0x398, symBinAddr: 0x100003C40, symSize: 0xA0 }
+  - { offsetInCU: 0x1B5, offset: 0x1B5, size: 0x8, addend: 0x0, symName: _dfs, symObjAddr: 0x2D4, symBinAddr: 0x100003B7C, symSize: 0xC4 }
+  - { offsetInCU: 0x1FF, offset: 0x1FF, size: 0x8, addend: 0x0, symName: _createBinaryTree, symObjAddr: 0x118, symBinAddr: 0x1000039C0, symSize: 0x1BC }
+  - { offsetInCU: 0x2D6, offset: 0x2D6, size: 0x8, addend: 0x0, symName: _createTreeNode, symObjAddr: 0xD8, symBinAddr: 0x100003980, symSize: 0x40 }
+  - { offsetInCU: 0x315, offset: 0x315, size: 0x8, addend: 0x0, symName: _createLinkedList, symObjAddr: 0x38, symBinAddr: 0x1000038E0, symSize: 0xA0 }
+  - { offsetInCU: 0x38F, offset: 0x38F, size: 0x8, addend: 0x0, symName: _createListNode, symObjAddr: 0x0, symBinAddr: 0x1000038A8, symSize: 0x38 }
+...
