@@ -1,6 +1,0 @@
-[package]
-name = "max_points_cost"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]

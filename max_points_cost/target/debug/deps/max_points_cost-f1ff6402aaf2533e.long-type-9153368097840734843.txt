@@ -1,1 +1,0 @@
-Zip<Scan<Enumerate<std::slice::Iter<'_, i64>>, i64, {closure@src/main.rs:17:33: 17:54}>, Rev<Scan<Rev<Enumerate<std::slice::Iter<'_, i64>>>, i64, {closure@src/main.rs:25:41: 25:63}>>>
