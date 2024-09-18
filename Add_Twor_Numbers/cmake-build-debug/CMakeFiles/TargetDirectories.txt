@@ -1,3 +1,0 @@
-/Users/canozaydin/CLionProjects/LeetCode/Add_Twor_Numbers/cmake-build-debug/CMakeFiles/Add_Twor_Numbers.dir
-/Users/canozaydin/CLionProjects/LeetCode/Add_Twor_Numbers/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/canozaydin/CLionProjects/LeetCode/Add_Twor_Numbers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

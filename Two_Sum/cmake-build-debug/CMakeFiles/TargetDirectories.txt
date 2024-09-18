@@ -1,3 +1,0 @@
-/Users/canozaydin/CLionProjects/LeetCode/Two_Sum/cmake-build-debug/CMakeFiles/Two_Sum.dir
-/Users/canozaydin/CLionProjects/LeetCode/Two_Sum/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/canozaydin/CLionProjects/LeetCode/Two_Sum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
