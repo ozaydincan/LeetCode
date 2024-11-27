@@ -17,8 +17,7 @@ class Solution:
                 if target <= nums[right] and target > nums[mid]:
                     left = mid + 1
                 else:
-                    right = mid + 1
-
+                    right = mid - 1
         return -1
 
 
@@ -32,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
