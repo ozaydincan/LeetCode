@@ -6,3 +6,4 @@
 **/main.dSYM/Contents/
 */bin/*
 /bin/
+*.out
