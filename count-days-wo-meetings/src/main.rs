@@ -1,19 +1,28 @@
 struct Solution;
 
 impl Solution {
-    pub fn count_days(days: i32, meetings: Vec<Vec<i32>>) -> i32 {
-        let mut day_tracker: Vec<i32> = vec![0; days.try_into().unwrap()];
-        for nums in meetings.iter() {
-            for i in nums[0] - 1..nums[1] {
-                day_tracker[i as usize] = 1;
-            }
+    pub fn count_days(days: i32, mut meetings: Vec<Vec<i32>>) -> i32 {
+        if meetings.is_empty() {
+            return days;
         }
-        day_tracker
+
+        meetings.sort_by_key(|m| m[0]);
+
+        days - meetings
+            .into_iter()
+            .fold(Vec::new(), |mut acc: Vec<Vec<i32>>, m| {
+                if let Some(last) = acc.last_mut() {
+                    if m[0] <= last[1] + 1 {
+                        last[1] = last[1].max(m[1]);
+                        return acc;
+                    }
+                }
+                acc.push(m);
+                acc
+            })
             .iter()
-            .filter(|&n| *n == 0)
-            .count()
-            .try_into()
-            .unwrap()
+            .map(|m| m[1] - m[0] + 1)
+            .sum::<i32>()
     }
 }
 
